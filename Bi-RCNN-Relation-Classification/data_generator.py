@@ -1,7 +1,7 @@
 import numpy as np
 import copy
 from config_environment import *
-from util import *
+from Biutil import *
 
 class DataGenerator(object):
 

@@ -1,4 +1,4 @@
-stanford_corenlp_root_path = r"C:/stanford-corenlp-full-2017-06-09/stanford-corenlp-full-2017-06-09/"
+stanford_corenlp_root_path = r"E:\stanford-corenlp-full-2018-02-27/"
 
 
 word_wec_path = "C:/Users/Administrator/Desktop/wordwec/"
@@ -24,8 +24,7 @@ word_vec_file6 = word_wec_path + "glove.twitter.27B/glove.twitter.27B.100d.txt"
 word_vec_file7 = word_wec_path + "glove.twitter.27B/glove.twitter.27B.200d.txt"
 
 # 存成字典，方便索引
-word_vec_file = \
-    [word_vec_file1, word_vec_file2, word_vec_file3, word_vec_file4, word_vec_file5, word_vec_file6, word_vec_file7]
+word_vec_file = [word_vec_file1, word_vec_file2, word_vec_file3, word_vec_file4, word_vec_file5, word_vec_file6, word_vec_file7]
 # 生成数据时候的文件名
 word_vec_file_state = ["deps", "glove.6B.50d", "glove.6B.100d", "glove.6B.200d",
                        "glove.twitter.27B.50d", "glove.twitter.27B.100d", "glove.twitter.27B.200d"]
