@@ -38,7 +38,7 @@ class DataGenerator(object):
         self.shuffled_indices = np.random.permutation(np.arange(self.num_train_data))
 
     def re_inverse(self, data, length, id):
-        for i in len(0, length):
+        for i in range(0, length):
             if data["sentence_label_train"][i] == id:
                 data["sdp_words_rev_index_train"][i] = data["sdp_words_index_train"][i]
                 data["sdp_rels_rev_index_train"][i] = data["sdp_rels_index_train"][i]
